@@ -7,14 +7,6 @@ A Windows-first voice assistant that pairs a web UI (Eel) with wake-word detecti
 - Face authentication via OpenCV LBPH before enabling the UI.
 - Voice commands: open local apps/URLs, play YouTube terms, send/launch WhatsApp calls/messages, basic phone automation hooks, performing computer shortcuts over voice and fallback to Gemini for general prompts.
 
-## Project layout
-- [main.py](main.py): boots the Eel app, triggers face auth, opens the UI.
-- [run.py](run.py): spawns the UI and hotword listener in separate processes.
-- [engine/command.py](engine/command.py): speech I/O and command router; handles continuous mode.
-- [engine/features.py](engine/features.py): command handlers (open apps/web, YouTube, WhatsApp/phone, Gemini) and Porcupine loop.
-- [engine/auth/](engine/auth/): face auth (LBPH model, cascade, trainer artifacts).
-- [www/](www/): front-end assets.
-
 ## Prerequisites
 - Python 3.12 (matching the included `envecho` venv) on Windows.
 - Microphone and camera access (wake word + face auth).
