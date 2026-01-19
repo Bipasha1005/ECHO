@@ -7,3 +7,5 @@ engine/__pycache__/
 /engine/auth/__pycache__/
 /__pycache__/
 /www/assets/audio
+\engine\db.py
+
