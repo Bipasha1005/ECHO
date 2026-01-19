@@ -1,1 +1,9 @@
 /envecho
+contacts.csv
+echo.db
+engine/__pycache__/
+/engine/cookies.json
+/engine/auth/samples
+/engine/auth/__pycache__/
+/__pycache__/
+/www/assets/audio

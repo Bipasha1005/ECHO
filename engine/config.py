@@ -1,0 +1,2 @@
+ASSISTANT_NAME = "echo"
+LLM_KEY = "AIzaSyB9T75SAhoTDq8w1ho_LoZc07yy7OAt6ts"
