@@ -5,7 +5,7 @@ A Windows-first voice assistant that pairs a web UI (Eel) with wake-word detecti
 ## Features
 - Wake word "echo" using Porcupine, then continuous listening and speech synthesis.
 - Face authentication via OpenCV LBPH before enabling the UI.
-- Voice commands: open local apps/URLs, play YouTube terms, send/launch WhatsApp calls/messages, basic phone automation hooks, and fallback to Gemini for general prompts.
+- Voice commands: open local apps/URLs, play YouTube terms, send/launch WhatsApp calls/messages, basic phone automation hooks, performing computer shortcuts over voice and fallback to Gemini for general prompts.
 - Dual-process runner in [run.py](run.py) so hotword detection stays responsive while the UI runs.
 - Web UI served from [www/](www/) with audio/visual feedback and message history.
 
