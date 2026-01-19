@@ -24,8 +24,7 @@ pip install -r requirements.txt
 ## Configuration
 - Update [engine/config.py](engine/config.py) with your own Gemini API key (`LLM_KEY`). Avoid committing secrets; consider loading from environment variables in production.
 - Change `ASSISTANT_NAME` if you want a different wake name in responses.
-- Ensure the trained face model exists at [engine/auth/trainer/trainer.yml](engine/auth/trainer/trainer.yml). To retrain, capture samples (see `engine/auth/sample.py`) and run `engine/auth/trainer.py`.
-- SQLite data is stored in `echo.db` (commands, contacts). Seed data can be imported from [contacts.csv](contacts.csv).
+- SQLite data is stored in `echo.db` (commands, contacts). .
 
 ## Running
 ```bash
